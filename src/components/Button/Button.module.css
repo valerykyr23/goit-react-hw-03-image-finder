@@ -1,0 +1,26 @@
+.BtnContainer {
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.BtnContainer .Button {
+    padding: 16px 36px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: white;
+    background-color: royalblue;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.BtnContainer .Button:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}

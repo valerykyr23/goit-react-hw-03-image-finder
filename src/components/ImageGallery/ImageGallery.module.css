@@ -1,0 +1,12 @@
+.ImageGallery {
+    padding: 0;
+    margin: 20px 20px;
+    display: grid;
+    /* grid-columns: (1fr)[4]; */
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-rows: (1fr)[3]; */
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    list-style: none;
+}

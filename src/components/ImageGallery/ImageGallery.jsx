@@ -1,13 +1,10 @@
-// import styles from './Filter.module.css';
+import { Component } from 'react';
+import styles from './ImageGallery.module.css';
 
-
-export const ImageGallery = ({  }) => {
-    return <ul class="gallery">
-  
-</ul>
+class ImageGallery extends Component {
+  render() {
+    return <ul className={styles.ImageGallery}>{this.props.children}</ul>;
+  }
 }
 
-ImageGallery.propTypes = {
-  
-  
-};
+export default ImageGallery;
